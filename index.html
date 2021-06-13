@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://kit.fontawesome.com/a9e84b54b5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <title>Producto comercial</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="./images/gitarlogo.jpg" alt="guitar logo" id="header-img" />
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#features" class="nav-link">Características</a></li>
+                <li><a href="#details" class="nav-link">Detalles</a></li>
+                <li><a href="#prices" class="nav-link">Precios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="container-form">
+            <h2>Permítanos comunicarnos con usted.</h2>
+            <form action="https://www.freecodecamp.org/email-submit" id="form">
+                <input type="email" id="email" placeholder="Correo electrónico" required />
+                <input type="submit" value="Compartir" class="btn" id="submit">
+            </form>
+        </div>
+
+        <div class="container-guitar">
+            <section id="features">
+                <div class="structure">
+                    <div class="icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Su estructura</h2>
+                        <p>
+                            La guitarra eléctrica está formada por las siguientes partes:
+                        <ul>
+                            <li>El cuerpo</li>
+                            <li>El mástil</li>
+                            <li>El clavijero o pala</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="structure">
+                    <div class="icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Sus componentes</h2>
+                        <p>
+                            Las pastillas ("pickup" en inglés) electromagnéticas están formadas por un
+                            imán permanente rodeadas por un bobinado de alambre de cobre. Cuando un cuerpo metálico
+                            ferromagnético se mueve dentro del campo magnético del imán permanente se provoca una
+                            corriente inducida en el bobinado proporcional a la amplitud de movimiento y de frecuencia
+                            igual a la de la oscilación del cuerpo.
+                        <ul>
+                            <li>Las pastillas electromagnéticas</li>
+                            <li>Las pastillas piezoeléctricas</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="structure">
+                    <div class="icon">
+                        <i class="fas fa-guitar"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Su calibración</h2>
+                        <p>
+                            La calibración de una guitarra consta de dos partes básicas, el puente y el mástil. En el
+                            puente se gradúan la altura y el largo de la cuerda y en el mástil se gradúa la torsión de
+                            mismo el cual se recomienda debe ser recto.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="details">
+                <iframe width="720" height="480" src="https://www.youtube.com/embed/q_YyISc7hx8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+
+            <section id="prices">
+                <div class="product" id="fender">
+                    <div class="level">Marca Fender</div>
+                    <h2>$ 3.400.000</h2>
+                    <ol>
+                        <li>Fender Player Telecaster MN Negra.</li>
+                        <li>Cuerpo de aliso con acabado brillante.</li>
+                        <li>Dos pastillas single coil Player Series Telecaster.</li>
+                        <li>Perfil de mástil "C moderno" de 9.5 " de radio.</li>
+                        <li>Puente de cuerdas a través con caballetes de acero.</li>
+                    </ol>
+                    <button class="btn">Seleccionar</button>
+                </div>
+                <div class="product" id="epiphone">
+                    <div class="level">Marca Epiphone</div>
+                    <h2>$ 1.539.000</h2>
+                    <ol>
+                        <li>Guitarra Eléctrica Epiphone EGG1EBCH1 G-310.</li>
+                        <li>Material del cuerpo: Aliso.</li>
+                        <li>Acabado: Ébano.</li>
+                        <li>Pastillas: humbuckers de bobina abierta de 2.</li>
+                        <li>Controles: 2 volumen, 2 tono, 3 posiciones Pickup Selector.</li>
+                    </ol>
+                    <button class="btn">Seleccionar</button>
+                </div>
+                <div class="product" id="yamaha">
+                    <div class="level">Marca Yamaha</div>
+                    <h2>$ 760.000</h2>
+                    <ol>
+                        <li>Guitarra eléctrica Yamaha RGX 121Z.</li>
+                        <li>Dos micrófonos dobles y uno sencillo.</li>
+                        <li>Selector de 5 posiciones.</li>
+                        <li>Barra de tremolo</li>
+                        <li>Controles: 1 volumen, 1 tono, 2 posiciones Selector.</li>
+                    </ol>
+                    <button class="btn">Seleccionar</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <span>Copyright alexmillo 2021, Guitarras Academia Geek</span>
+    </footer>
+</body>
+
+</html>
